@@ -22,8 +22,8 @@ p {
   margin: 30px 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'Lato','Helvetica','Arial', sans-serif;
+  font-weight: 500;
 }
 a {
   color: {{ site.link-col }};
@@ -108,9 +108,11 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
+  padding: 15px 80px !important;
   background-color: white;
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato','Helvetica','Arial', sans-serif;
+  letter-spacing: 1px
   {% if site.navbar-img %}
   background-image: url({{ site.navbar-img }});
   background-attachment: fixed;
@@ -125,7 +127,7 @@ img {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
-  font-weight: 800;
+  font-weight: normal;
   color: {{ site.navbar-text-col }};
 }
 
@@ -352,9 +354,8 @@ footer .theme-by {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #808080;
-  font-size: 18px;
-  font-style: italic;
+  color: grey;
+  font-size: 16px;
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
