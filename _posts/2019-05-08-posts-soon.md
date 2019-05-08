@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Posts to come soon!
-subtitle: ----
-tags: [posts, soon]
+subtitle:
 ---
 
 Posts to come soon!
