@@ -3522,6 +3522,12 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px;
 }
+.navbar-right {
+  margin-right: 0; !important
+}
+.navbar-brand {
+  margin-left: 0; !important
+}
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     right: 0;
