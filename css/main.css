@@ -111,7 +111,8 @@ img {
   padding: 20px !important;
   background-color: white;
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato','Helvetica','Arial', sans-serif;
+  letter-spacing: 1px
   {% if site.navbar-img %}
   background-image: url({{ site.navbar-img }});
   background-attachment: fixed;
