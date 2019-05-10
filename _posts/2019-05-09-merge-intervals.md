@@ -3,6 +3,8 @@ layout: post
 title: Leetcode Problem – Merge Intervals
 ---
 
+Question:
+
 Given a collection of intervals, merge all overlapping intervals.
 
 ~~~
@@ -18,6 +20,11 @@ Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 NOTE: input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
 ~~~
+
+Answer:
+
+So my initial instinct for this was to sort by the start of each interval and then you would only have to compare one interval to its adjacent interval. Mostly due to having done some pseudocode for the similar Meeting Rooms II problem. However I didn't think about a lot of edge cases.  The biggest error was assuming the adjacent interval will always have a higher end value.  I fixed this with the whatToAdd variable.
+
 
 ```javascript
 /**
