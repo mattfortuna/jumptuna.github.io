@@ -23,7 +23,7 @@ NOTE: input types have been changed on April 15, 2019. Please reset to default c
 
 Answer:
 
-So my initial instinct for this was to sort by the start of each interval and then you would only have to compare one interval to its adjacent interval. Mostly due to having done some pseudocode for the similar Meeting Rooms II problem. However I didn't think about a lot of edge cases.  The biggest error was assuming the adjacent interval will always have a higher end value.  I fixed this with the whatToAdd variable.
+So my initial instinct for this was to sort by the start of each interval and then you would only have to compare one interval to its adjacent interval – mostly due to having done some pseudocode for the similar Meeting Rooms II problem. However I didn't think about a lot of edge cases.  The biggest error I made was assuming the adjacent interval will always have a higher end value.  I fixed this with the whatToAdd variable.
 
 
 ```javascript
