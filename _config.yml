@@ -20,7 +20,6 @@ description: Matt Fortuna
 
 # List of links in the navigation bar
 navbar-links:
-  Art: "art"
   About Me: "about"
 
 # Image to show in the navigation bar - image must be a square (width = height)
