@@ -3,7 +3,7 @@ layout: page
 title: Hey, I'm Matt.
 ---
 
-![](img/profile.png)
+![](img/profile.png =250x)
 
 I'm a Fullstack Software Engineer with a front end focus based in Seattle and working for Compass Inc.
 
