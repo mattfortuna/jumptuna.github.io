@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://jumptuna.github.io"
+url: "https://mattfortuna.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -20,6 +20,7 @@ description: Matt Fortuna
 
 # List of links in the navigation bar
 navbar-links:
+  Projects: "projects"
   About Me: "about"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -62,7 +63,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   email: "matthew4tuna@gmail.com"
-  github: jumptuna
+  github: mattfortuna
   linkedin: matt-fortuna-837671b2
 #  reddit: yourname
 #  google-plus: +DeanAttali
