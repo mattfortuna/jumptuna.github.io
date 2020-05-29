@@ -20,6 +20,7 @@ body {
 img[alt=profile] {
   width: 200px;
   text-align: center;
+  margin-left: 265px;
 }
 p {
   line-height: 1.5;
