@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leetcode Problem – Unique Email Addresses
+title: Unique Email Addresses
 ---
 
 Question:

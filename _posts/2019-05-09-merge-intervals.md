@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leetcode Problem – Merge Intervals
+title: Merge Intervals
 ---
 
 Question:
